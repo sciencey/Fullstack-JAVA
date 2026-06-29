@@ -7,7 +7,7 @@ ruoyi:
   # 版权年份
   copyrightYear: 2026
   # 文件路径 示例（ Windows配置D:/ruoyi/uploadPath，Linux配置 /home/ruoyi/uploadPath）
-  profile: D:/ruoyi/uploadPath
+  profile: /home/ruoyi/uploadPath
   # 获取ip地址开关
   addressEnabled: false
   # 验证码类型 math 数字计算 char 字符验证
@@ -74,14 +74,14 @@ spring:
       # 数据库索引
       database: 0
       # 服务器地址
-      host: adequate-worm-151479.upstash.io
+      host: 127.0.0.1
       # 连接端口
       port: 6379
       # 连接密码（把冒号后面的 default 忽略，只粘这一长串密码）
-      password: gQAAAAAAAk-3AAIgcDEwNDRmNTFjODc4NjA0MDcyOTkzZDdlNTk0ZmI0MTU3OQ
+      password:
       # 开启 SSL 加密连接（因为连接串里有 --tls，所以这里必须为 true）
       ssl:
-        enabled: true
+        enabled: false
       # 超时时间
       timeout: 10000ms
       lettuce:

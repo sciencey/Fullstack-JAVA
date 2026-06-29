@@ -38,7 +38,6 @@
 
 ## 在线体验
 
-- admin/admin123
+- vistor/123123
+演示地址：https://reurl.cc/O6dKmg
 
-演示地址：http://vue.ruoyi.vip  
-文档地址：http://doc.ruoyi.vip
